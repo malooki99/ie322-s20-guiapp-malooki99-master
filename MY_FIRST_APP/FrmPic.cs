@@ -62,7 +62,7 @@ namespace First_application
         private void FrmPic_Load(object sender, EventArgs e)
         {
             _assembly = Assembly.GetExecutingAssembly();
-            _imageStream = _assembly.GetManifestResourceStream("MY_FIRST_APP.pic.Me.jpeg");
+          
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
